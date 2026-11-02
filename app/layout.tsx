@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Poppins } from "next/font/google";
 import rawData from "@/data/templates.json";
 import { PetTemplateData, ThemeFontVariables } from "@/types/templates.types";
+import { Header } from "@/components/common/Header";
+import { Footer } from "@/components/common/Footer";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -18,6 +20,7 @@ const cormorant = Cormorant_Garamond({
 
 
 const templateData: PetTemplateData = rawData;
+const sectionData = templateData.categories.Pet.sections;
 const fontVariables: ThemeFontVariables = {
   '--font-primary': templateData.common.theme.fonts.primary,
   '--font-heading': templateData.common.theme.fonts.heading,
@@ -41,8 +44,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${cormorant.variable} font-sans antialiased`} style={fontVariables}>
+      <body className={`${poppins.variable} ${cormorant.variable} flex min-h-screen flex-col font-sans antialiased`} style={fontVariables}>
+        <Header data={sectionData.Header?.variants?.PetHeader2} />
         {children}
+        <Footer data={templateData.common.Footer} />
       </body>
     </html>
   );

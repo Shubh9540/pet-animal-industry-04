@@ -1,9 +1,7 @@
 import rawData from '@/data/templates.json';
 import { PetTemplateData } from '@/types/templates.types';
-import { Header } from '@/components/common/Header';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { OurTeam } from '@/components/sections/OurTeam';
-import { Footer } from '@/components/common/Footer';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,11 +13,9 @@ export default function TeamPage() {
   if (!sectionData || !commonData) return null;
 
   return (
-    <main className="flex min-h-screen flex-col bg-[var(--color-bg-main)]">
-      <Header data={sectionData.Header?.variants?.PetHeader2} />
+    <main className="flex flex-1 flex-col bg-[var(--color-bg-main)]">
       <Breadcrumb data={commonData.teamBreadcrumb} ui={commonData.globalUI} />
       <OurTeam data={sectionData.OurTeam?.variants?.PetOurTeam2} />
-      <Footer data={commonData.Footer} />
     </main>
   );
 }
