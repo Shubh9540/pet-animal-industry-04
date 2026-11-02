@@ -1,0 +1,1164 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-poppins), sans-serif",
+        "heading": "var(--font-cormorant), serif",
+        "navigation": "var(--font-poppins), sans-serif"
+      }
+    },
+    "metadata": {
+      "title": "Furique | Pet Care & Wellness",
+      "description": "Furique provides compassionate veterinary care, grooming, wellness, and happier everyday experiences for pets.",
+      "icon": "/furique/paw.svg"
+    },
+    "globalUI": {
+      "breadcrumbSeparator": "›"
+    },
+    "Footer": {
+      "logoAlt": "Furique Pet Care & Wellness",
+      "logoUrl": "/",
+      "brandName": "Furique",
+      "brandTagline": "Pet Care & Wellness",
+      "description": "Compassionate care for healthier, happier pets.",
+      "copyrightText": "© 2026 Furique. All Rights Reserved. Powered By Lestow",
+      "creditText": "Compassionate pet care, thoughtfully delivered.",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Support",
+      "socialTitle": "Social",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-twitter",
+          "label": "Twitter",
+          "url": "https://twitter.com"
+        },
+        {
+          "id": "social-instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-youtube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "quick-services",
+          "label": "Services",
+          "url": "/services"
+        },
+        {
+          "id": "quick-gallery",
+          "label": "Gallery",
+          "url": "/gallery"
+        }
+      ],
+      "supportLinks": [
+        {
+          "id": "support-faq",
+          "label": "FAQ",
+          "url": "/faqs"
+        },
+        {
+          "id": "support-contact",
+          "label": "Contact Us",
+          "url": "/contact"
+        },
+        {
+          "id": "support-appointment",
+          "label": "Appointment",
+          "url": "/book-an-appointment"
+        }
+      ]
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Services",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-services-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-services-current",
+          "label": "Services"
+        }
+      ]
+    },
+    "faqsBreadcrumb": {
+      "title": "Faqs",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-faqs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-faqs-current",
+          "label": "Faqs"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "bookAppointmentBreadcrumb": {
+      "title": "Book an Appointment",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-book-event-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-book-event-current",
+          "label": "Book an Appointment"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Gallery",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-gallery-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-gallery-current",
+          "label": "Gallery"
+        }
+      ]
+    },
+    "teamBreadcrumb": {
+      "title": "Our Team",
+      "image": "/furique/breadcrumb-cat-resting.png",
+      "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+      "paths": [
+        {
+          "id": "breadcrumb-team-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-team-current",
+          "label": "Our Team"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Pet": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "PetHeader2": {
+              "logoAlt": "Furique Pet Care & Wellness",
+              "logoUrl": "/",
+              "brandName": "Furique",
+              "brandTagline": "Pet Care & Wellness",
+              "navLinksLeft": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Services",
+                  "url": "/services"
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Our Team",
+                  "url": "/team"
+                },
+                {
+                  "id": "nav-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nav-faq",
+                  "label": "Faq",
+                  "url": "/faqs"
+                },
+                {
+                  "id": "nav-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "navLinksRight": [],
+              "contactButton": {
+                "text": "Book an Appointment",
+                "url": "/book-an-appointment"
+              },
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PetHero2": {
+              "eyebrow": "Compassionate Pet Care",
+              "titleLine1": "Happy Pets",
+              "highlightedTitle": "Brighter",
+              "titleLine2": "Tomorrows",
+              "image": "/furique/hero.png",
+              "imageAlt": "A happy golden retriever sitting beside a relaxed fluffy cat"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PetAboutUs2": {
+              "titleLine1": "Compassionate Care",
+              "highlightedTitle": "For Happier Pets",
+              "description": "At Furique, we create a calm and caring environment where every pet feels safe, comfortable, and truly looked after with personalised attention and reliable care.",
+              "eyebrow": "About Us",
+              "buttonText": "Learn More",
+              "buttonUrl": "/about",
+              "stats": [
+                {
+                  "id": "stat-happy-pets",
+                  "value": "20K+",
+                  "title": "Happy Pets",
+                  "description": "Trusted by thousands of families for complete pet care."
+                },
+                {
+                  "id": "stat-services-delivered",
+                  "value": "80K+",
+                  "title": "Services Delivered",
+                  "description": "From grooming to wellness care, ensuring healthy and happy pets."
+                },
+                {
+                  "id": "stat-client-satisfaction",
+                  "value": "98%",
+                  "title": "Client Satisfaction",
+                  "description": "Built on trust, care, and reliable service."
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "PetGallery2": {
+              "openLabel": "Open gallery image",
+              "closeLabel": "Close gallery image",
+              "previousLabel": "Previous gallery image",
+              "nextLabel": "Next gallery image",
+              "images": [
+                {
+                  "id": "gallery-pet-1",
+                  "image": "/gallery/g1.jpg",
+                  "imageAlt": "A veterinarian checking a golden retriever with its family"
+                },
+                {
+                  "id": "gallery-pet-2",
+                  "image": "/gallery/g2.jpg",
+                  "imageAlt": "Veterinary team examining a golden retriever"
+                },
+                {
+                  "id": "gallery-pet-3",
+                  "image": "/gallery/g3.jpg",
+                  "imageAlt": "A veterinarian caring for a small dog"
+                },
+                {
+                  "id": "gallery-pet-4",
+                  "image": "/gallery/g4.jpg",
+                  "imageAlt": "A groomer carefully trimming a small dog"
+                },
+                {
+                  "id": "gallery-pet-5",
+                  "image": "/gallery/g5.jpg",
+                  "imageAlt": "A happy dog enjoying a bath"
+                },
+                {
+                  "id": "gallery-pet-6",
+                  "image": "/gallery/g6.jpg",
+                  "imageAlt": "A trainer working with a dog outdoors"
+                },
+                {
+                  "id": "gallery-pet-7",
+                  "image": "/gallery/g7.jpg",
+                  "imageAlt": "A groomer trimming a dog in the salon"
+                },
+                {
+                  "id": "gallery-pet-8",
+                  "image": "/gallery/g8.jpg",
+                  "imageAlt": "Veterinarians caring for a small dog"
+              },
+              {
+                "id": "gallery-pet-9",
+                "image": "/gallery/g9.jpg",
+                "imageAlt": "Modern Furique pet care clinic interior"
+              },
+              {
+                "id": "gallery-pet-10",
+                "image": "/gallery/g10.jpg",
+                "imageAlt": "Happy pet receiving gentle care from a veterinarian"
+                }
+              ],
+            "subtitle": "Gallery",
+            "title": "Moments of Care",
+            "highlightedTitle": "and Happy Pets",
+            "description": "A glimpse into the everyday moments at our clinic — from compassionate care and modern facilities to happy pets and their families. Our gallery captures the heart of what we do."
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "PetFaq2": {
+              "subtitle": "FAQ",
+              "title1": "Frequently Asked",
+              "highlightedTitle": "Questions",
+              "description": "Find quick answers to common questions about our pet care services, appointments, facilities, and more. If you need further assistance, feel free to contact our team.",
+              "expandLabel": "Expand answer",
+              "collapseLabel": "Collapse answer",
+              "items": [
+                {
+                  "id": "faq-services",
+                  "number": "1.",
+                  "question": "Do I need an appointment for a consultation?",
+                  "answer": "While walk-ins are welcome, we recommend scheduling an appointment to ensure minimal waiting time and dedicated attention for your pet. Appointments help us provide a better and more personalized experience."
+                },
+                {
+                  "id": "faq-grooming-safety",
+                  "number": "2.",
+                  "question": "What types of pets do you treat?",
+                  "answer": "Our team provides compassionate care for dogs, cats, and many common companion pets. Contact us before booking if your pet has specialized care requirements."
+                },
+                {
+                  "id": "faq-pet-boarding",
+                  "number": "3.",
+                  "question": "What services are included in a routine checkup?",
+                  "answer": "A routine checkup includes a physical examination, weight and wellness review, preventive-care guidance, and recommendations tailored to your pet."
+                },
+                {
+                  "id": "faq-daycare-timings",
+                  "number": "4.",
+                  "question": "Are vaccinations necessary for indoor pets?",
+                  "answer": "Yes. Vaccinations help protect indoor pets from preventable illnesses that can still enter the home through people, other animals, or unexpected exposure."
+                },
+                {
+                  "id": "faq-book-appointment",
+                  "number": "5.",
+                  "question": "How often should I bring my pet for a health checkup?",
+                  "answer": "Most healthy adult pets benefit from a yearly wellness visit, while puppies, kittens, senior pets, and pets with ongoing conditions may need more frequent care."
+                },
+                {
+                  "id": "faq-vaccinations",
+                  "number": "6.",
+                  "question": "Do you provide grooming services?",
+                  "answer": "Yes. We offer gentle grooming, bathing, coat care, nail trimming, and hygiene services suited to your pet\u2019s breed and comfort."
+                },
+                {
+                  "id": "faq-stay-during-grooming",
+                  "number": "7.",
+                  "question": "What should I do in a pet emergency?",
+                  "answer": "Call our team immediately and describe the symptoms. If your pet is in severe distress, seek the nearest emergency veterinary service without delay."
+                },
+                {
+                  "id": "faq-boarding-food-bedding",
+                  "number": "8.",
+                  "question": "Do you offer nutritional advice for pets?",
+                  "answer": "Yes. Our team can recommend balanced nutrition and practical feeding guidance based on your pet\u2019s age, breed, lifestyle, and health needs."
+                }
+              ],
+              "image": "/about/1.webp",
+              "imageAlt": "A golden retriever and cat resting together"
+            }
+          }
+        },
+        "OurService": {
+          "variants": {
+            "PetOurService2": {
+              "subtitle": "OUR SERVICES",
+              "highlightedTitle": "Healthier Happier Pets",
+              "linkText": "View All Services",
+              "services": [
+                {
+                  "id": "service-health-checkup",
+                  "title": "Health Checkup",
+                  "icon": "FaStethoscope",
+                  "url": "/services/details",
+                  "image": "/furique/health-checkup.png",
+                  "imageAlt": "Veterinarian giving a golden retriever a gentle health checkup",
+                  "buttonText": "View"
+                },
+                {
+                  "id": "service-vaccination-preventive-care",
+                  "title": "Vaccination",
+                  "icon": "FaSyringe",
+                  "url": "/services/details",
+                  "image": "/service/fluffy-cat.jpg",
+                  "imageAlt": "Cat receiving attentive preventive veterinary care",
+                  "buttonText": "View"
+                },
+                {
+                  "id": "service-grooming-hygiene",
+                  "title": "Grooming",
+                  "icon": "FaCut",
+                  "url": "/services/details",
+                  "image": "/service/grooming.jpg",
+                  "imageAlt": "Happy dog receiving professional grooming care",
+                  "buttonText": "View"
+                },
+                {
+                  "id": "service-pet-daycare",
+                  "title": "Pet Daycare",
+                  "icon": "FaHome",
+                  "url": "/services/details",
+                  "image": "/gallery/g1.jpg",
+                  "imageAlt": "Happy dog enjoying supervised pet daycare",
+                  "buttonText": "View"
+                },
+                {
+                  "id": "service-pet-boarding",
+                  "title": "Pet Boarding",
+                  "icon": "FaPaw",
+                  "url": "/services/details",
+                  "image": "/about/1.webp",
+                  "imageAlt": "Dog and cat relaxing together during pet boarding",
+                  "buttonText": "View"
+                }
+              ],
+              "titleLine1": "Complete Care For",
+              "linkUrl": "/services"
+            }
+          }
+        },
+        "ServicesPage": {
+          "variants": {
+            "PetServicesPage2": {
+              "eyebrow": "Our Services",
+              "title": "Complete",
+              "highlightedTitle": "Care for Every Pet",
+              "description": "From preventive care to advanced treatments, we offer a full range of veterinary services to keep your pets healthy, happy, and loved at every stage of life.",
+              "cards": [
+                {
+                  "id": "services-page-wellness",
+                  "number": "01",
+                  "title": "Wellness & Preventive Care",
+                  "description": "Routine checkups, vaccinations and health screenings to keep your pet healthy.",
+                  "image": "/furique/health-checkup.png",
+                  "imageAlt": "Happy golden retriever receiving a wellness checkup",
+                  "url": "/services/details"
+                },
+                {
+                  "id": "services-page-diagnostics",
+                  "number": "02",
+                  "title": "Diagnostics & Testing",
+                  "description": "Advanced diagnostic tools for accurate and early detection.",
+                  "image": "/service/fluffy-cat.jpg",
+                  "imageAlt": "Healthy cat receiving attentive diagnostic care",
+                  "url": "/services/details"
+                },
+                {
+                  "id": "services-page-medical-treatment",
+                  "number": "03",
+                  "title": "Medical Treatment",
+                  "description": "Expert care for a wide range of illnesses and health conditions.",
+                  "image": "/gallery/g3.jpg",
+                  "imageAlt": "Dog receiving professional medical treatment",
+                  "url": "/services/details"
+                },
+                {
+                  "id": "services-page-surgery",
+                  "number": "04",
+                  "title": "Surgery & Specialized Care",
+                  "description": "Safe and advanced procedures for complex health needs.",
+                  "image": "/about/1.webp",
+                  "imageAlt": "Dog and cat supported by experienced veterinary professionals",
+                  "url": "/services/details"
+                },
+                {
+                  "id": "services-page-grooming",
+                  "number": "05",
+                  "title": "Grooming & Hygiene",
+                  "description": "Professional grooming to keep your pet clean, comfortable and happy.",
+                  "image": "/service/grooming.jpg",
+                  "imageAlt": "Happy dog receiving professional grooming care",
+                  "url": "/services/details"
+                },
+                {
+                  "id": "services-page-nutrition",
+                  "number": "06",
+                  "title": "Nutrition & Diet Counseling",
+                  "description": "Personalised diet plans to support your pet's overall health and vitality.",
+                  "image": "/gallery/g5.jpg",
+                  "imageAlt": "Healthy pet supported with personalised nutrition guidance",
+                  "url": "/services/details"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "PetServiceDetail2": {
+              "canonicalServiceId": "wellness-preventive-care",
+              "services": [
+                {
+                  "id": "wellness-preventive-care",
+                  "image": "/about/about.webp",
+                  "imageAlt": "Veterinarian caring for a golden retriever and cat during a wellness visit",
+                  "subtitle": "Our Services",
+                  "heading": "Wellness &",
+                  "highlightedHeading": "Preventive Care",
+                  "description": "Keep your pet healthy and happy with our comprehensive wellness and preventive care services. Regular checkups and early care help detect health issues early and ensure a longer, healthier life for your furry companion.",
+                  "breadcrumb": {
+                    "title": "Services Detail",
+                    "image": "/furique/breadcrumb-cat-resting.png",
+                    "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
+                    "paths": [
+                      {
+                        "id": "pet-grooming-breadcrumb-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "pet-grooming-breadcrumb-services",
+                        "label": "Services",
+                        "url": "/services"
+                      },
+                      {
+                        "id": "wellness-breadcrumb-current",
+                        "label": "Services Detail"
+                      }
+                    ]
+                  },
+                  "detailSections": [
+                    {
+                      "id": "detail-proactive-care",
+                      "eyebrow": "About This Service",
+                      "title": "Proactive Care for a Healthier",
+                      "highlightedTitle": "Tomorrow",
+                      "paragraphs": [
+                        {
+                          "id": "proactive-care-examinations",
+                          "text": "Our veterinarians provide thorough examinations, personalised vaccinations, and tailored preventive care to keep your pet in the best possible condition."
+                        },
+                        {
+                          "id": "proactive-care-prevention",
+                          "text": "By focusing on early detection and prevention, we help reduce the risk of serious health issues and ensure your pet enjoys a healthier, happier life at every stage."
+                        }
+                      ],
+                      "image": "/gallery/g3.jpg",
+                      "imageAlt": "Veterinarian giving a dog a gentle preventive health examination",
+                      "imagePosition": "left"
+                    },
+                    {
+                      "id": "detail-why-it-matters",
+                      "eyebrow": "Why It Matters",
+                      "title": "Small Steps for a Longer,",
+                      "highlightedTitle": "Happier Life",
+                      "paragraphs": [
+                        {
+                          "id": "why-it-matters-wellbeing",
+                          "text": "Preventive care helps identify potential health concerns early, keeps your pet's immunity strong, and supports their overall well-being. Regular wellness visits ensure your pet stays active, happy, and by your side for many more years."
+                        }
+                      ],
+                      "image": "/service/fluffy-cat.jpg",
+                      "imageAlt": "Healthy relaxed cat benefiting from regular preventive care",
+                      "imagePosition": "left"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "PetTestimonials2": {
+              "subtitle": "Our Testimonials",
+              "image": "/furique/testimonial.png",
+              "imageAlt": "A smiling pet owner in a lavender sweater hugging her relaxed cat",
+              "testimonials": [
+                {
+                  "id": "testimonial-priya-sharma",
+                  "name": "Sarah Mitchell",
+                  "location": "Pet Owner",
+                  "quote": "\"Furique has been amazing for my cat. The team is caring, professional, and always makes every visit a stress-free experience.\""
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "PetBlogs2": {
+              "eyebrow": "Our Blogs",
+              "title": "Latest",
+              "highlightedTitle": "Insights",
+              "description": "Useful tips, expert advice, and healthy pet care insights to keep your furry friends happy.",
+              "items": [
+                {
+                  "id": "blog-healthy-happy-cat",
+                  "date": "May 14, 2026",
+                  "title": "How to Keep Your Cat Healthy and Happy",
+                  "description": "Simple tips to maintain your cat's well-being with proper care, nutrition, and regular checkups.",
+                  "image": "/gallery/g4.jpg",
+                  "imageAlt": "Relaxed cat enjoying gentle care",
+                  "linkText": "Read More",
+                  "url": "/faqs"
+                },
+                {
+                  "id": "blog-dog-care-tips",
+                  "date": "May 10, 2026",
+                  "title": "Essential Dog Care Tips for Every Pet Parent",
+                  "description": "Learn how to provide the best care, nutrition, and exercise to keep your dog healthy and full of life.",
+                  "image": "/gallery/g5.jpg",
+                  "imageAlt": "Happy golden retriever resting comfortably",
+                  "linkText": "Read More",
+                  "url": "/faqs"
+                },
+                {
+                  "id": "blog-regular-vet-checkups",
+                  "date": "May 06, 2026",
+                  "title": "The Importance of Regular Vet Checkups",
+                  "description": "Regular veterinary visits help detect health issues early and ensure a longer, happier life for your pet.",
+                  "image": "/gallery/g2.jpg",
+                  "imageAlt": "Pets receiving attentive veterinary care",
+                  "linkText": "Read More",
+                  "url": "/services"
+                }
+              ]
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "PetAboutWhyChooseUs2": {
+              "badge": "Why Choose Us",
+              "title": "Your Pet's",
+              "highlightedTitle": "Health & Happiness",
+              "titleLine2": "Are Our Top Concerns",
+              "description": "At Furique, we provide personalised care, modern facilities, and experienced veterinarians to ensure your pet stays healthy, happy, and loved at every stage of life.",
+              "image": "/about/1.webp",
+              "imageAlt": "A happy golden retriever and cat receiving compassionate care",
+              "reviewValue": "125+",
+              "reviewLabel": "Positive Reviews"
+            }
+          }
+        },
+        "BookAppointment": {
+          "variants": {
+            "PetBookAppointment2": {
+              "intro": {
+                "title": "Book an",
+                "highlightedTitle": "Appointment",
+                "description": "Fill out the form below and we\u2019ll confirm your appointment shortly."
+              },
+              "form": {
+                "fields": [
+                  {
+                    "id": "appointment-owner-name",
+                    "name": "ownerName",
+                    "type": "text",
+                    "icon": "FaRegUser",
+                    "label": "Your Name",
+                    "placeholder": "Your Name",
+                    "required": true,
+                    "width": "half"
+                  },
+                  {
+                    "id": "appointment-email",
+                    "name": "email",
+                    "type": "email",
+                    "icon": "FaRegEnvelope",
+                    "label": "Your Email",
+                    "placeholder": "Your Email",
+                    "required": true,
+                    "width": "half"
+                  },
+                  {
+                    "id": "appointment-phone",
+                    "name": "phone",
+                    "type": "tel",
+                    "icon": "FaPhoneAlt",
+                    "label": "Phone Number",
+                    "placeholder": "Phone Number",
+                    "required": true,
+                    "width": "full"
+                  },
+                  {
+                    "id": "appointment-pet-type",
+                    "name": "petType",
+                    "type": "select",
+                    "icon": "FaPaw",
+                    "label": "Pet Type",
+                    "placeholder": "Select Pet Type",
+                    "required": true,
+                    "width": "half",
+                    "options": [
+                      {
+                        "id": "appointment-pet-dog",
+                        "title": "Dog",
+                        "value": "dog"
+                      },
+                      {
+                        "id": "appointment-pet-cat",
+                        "title": "Cat",
+                        "value": "cat"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "appointment-service",
+                    "name": "service",
+                    "type": "select",
+                    "icon": "FaStethoscope",
+                    "label": "Service",
+                    "placeholder": "Select Service",
+                    "required": true,
+                    "width": "half",
+                    "options": [
+                      {
+                        "id": "appointment-service-health",
+                        "title": "General Health Checkup",
+                        "value": "health-checkup"
+                      },
+                      {
+                        "id": "appointment-service-grooming",
+                        "title": "Grooming & Hygiene",
+                        "value": "grooming"
+                      },
+                      {
+                        "id": "appointment-service-daycare",
+                        "title": "Pet Daycare",
+                        "value": "daycare"
+                      },
+                      {
+                        "id": "appointment-service-boarding",
+                        "title": "Pet Boarding",
+                        "value": "boarding"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "appointment-date",
+                    "name": "preferredDate",
+                    "type": "date",
+                    "icon": "FaRegCalendarAlt",
+                    "label": "Preferred Date",
+                    "placeholder": "Preferred Date",
+                    "required": true,
+                    "width": "half"
+                  },
+                  {
+                    "id": "appointment-time",
+                    "name": "preferredTime",
+                    "type": "select",
+                    "icon": "FaRegClock",
+                    "label": "Preferred Time",
+                    "placeholder": "Preferred Time",
+                    "required": true,
+                    "width": "half",
+                    "options": [
+                      {
+                        "id": "appointment-time-morning",
+                        "title": "9:00 AM - 11:00 AM",
+                        "value": "9am-11am"
+                      },
+                      {
+                        "id": "appointment-time-late-morning",
+                        "title": "11:00 AM - 1:00 PM",
+                        "value": "11am-1pm"
+                      },
+                      {
+                        "id": "appointment-time-afternoon",
+                        "title": "2:00 PM - 4:00 PM",
+                        "value": "2pm-4pm"
+                      },
+                      {
+                        "id": "appointment-time-evening",
+                        "title": "4:00 PM - 6:00 PM",
+                        "value": "4pm-6pm"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "appointment-message",
+                    "name": "message",
+                    "type": "textarea",
+                    "icon": "FaRegFileAlt",
+                    "label": "Additional Information",
+                    "placeholder": "Additional Information (Optional)",
+                    "required": false,
+                    "width": "full"
+                  }
+                ],
+                "buttonText": "Book Appointment",
+                "successMessage": "Thank you. Your appointment request has been received."
+              }
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "PetContact2": {
+              "intro": {
+                "eyebrow": "Contact Us",
+                "title": "We\u2019re Here for",
+                "highlightedTitle": "You and Your Pet",
+                "description": "Have a question, need to book an appointment, or want to know more about our services? Get in touch with our friendly team. We\u2019re always happy to help."
+              },
+              "form": {
+                "title": "Send Us a Message",
+                "description": "Fill out the form below and our team will get back to you shortly.",
+                "namePlaceholder": "Your Name",
+                "emailPlaceholder": "Your Email",
+                "phonePlaceholder": "Phone Number",
+                "servicePlaceholder": "Select Subject",
+                "serviceOptions": [
+                  {
+                    "id": "contact-service-health",
+                    "label": "Health Checkup",
+                    "value": "health-checkup"
+                  },
+                  {
+                    "id": "contact-service-grooming",
+                    "label": "Grooming & Hygiene",
+                    "value": "grooming"
+                  },
+                  {
+                    "id": "contact-service-daycare",
+                    "label": "Pet Daycare",
+                    "value": "daycare"
+                  },
+                  {
+                    "id": "contact-service-boarding",
+                    "label": "Pet Boarding",
+                    "value": "boarding"
+                  }
+                ],
+                "messagePlaceholder": "Your Message",
+                "buttonText": "Send Message",
+                "successMessage": "Thank you. Your message has been submitted successfully."
+              },
+              "map": {
+                "image": "/furique/contact-map.png",
+                "imageAlt": "Illustrated neighborhood map showing the Furique clinic area",
+                "label": "Furique",
+                "sublabel": "Pet Care & Wellness"
+              },
+              "contactItems": [
+                {
+                  "id": "contact-info-phone",
+                  "icon": "FaPhoneAlt",
+                  "title": "Call Us",
+                  "lines": [
+                    {
+                      "id": "contact-phone-number",
+                      "text": "+1 234 567 890"
+                    }
+                  ],
+                  "url": "tel:+1234567890"
+                },
+                {
+                  "id": "contact-info-email",
+                  "icon": "FaEnvelope",
+                  "title": "Email Us",
+                  "lines": [
+                    {
+                      "id": "contact-email-address",
+                      "text": "info@furique.com"
+                    }
+                  ],
+                  "url": "mailto:info@furique.com"
+                },
+                {
+                  "id": "contact-info-location",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Visit Us",
+                  "lines": [
+                    {
+                      "id": "contact-location-street",
+                      "text": "123 Pet Care Street, Green Valley, New York, NY 10001, USA"
+                    }
+                  ],
+                  "url": "https://www.google.com/maps/search/?api=1&query=123+Pet+Care+Street%2C+Green+Valley%2C+New+York%2C+NY+10001%2C+USA"
+                }
+              ]
+            }
+          }
+        },
+        "OurTeam": {
+          "variants": {
+            "PetOurTeam2": {
+              "eyebrow": "Our Team",
+              "title": "Compassionate Experts Behind",
+              "highlightedTitle": "Every Wag",
+              "description": "Our team of experienced veterinarians and pet care professionals are passionate about animal health and well-being. With a caring approach and years of expertise, we’re here to provide the best possible care for your furry family members.",
+              "members": [
+                {
+                  "id": "team-emily-carter",
+                  "name": "Dr. Emily Carter",
+                  "role": "Chief Veterinarian",
+                  "description": "Specializes in preventive care and general health for dogs and cats.",
+                  "image": "/team/team-1.png",
+                  "imageAlt": "Dr. Emily Carter caring for a happy dog"
+                },
+                {
+                  "id": "team-james-wilson",
+                  "name": "Dr. James Wilson",
+                  "role": "Internal Medicine Specialist",
+                  "description": "Expert in diagnosing and managing complex health conditions.",
+                  "image": "/team/team-2.png",
+                  "imageAlt": "Dr. James Wilson holding a relaxed cat"
+                },
+                {
+                  "id": "team-sophia-martinez",
+                  "name": "Dr. Sophia Martinez",
+                  "role": "Surgery Specialist",
+                  "description": "Experienced in advanced surgical procedures and post-operative care.",
+                  "image": "/team/team-3.png",
+                  "imageAlt": "Dr. Sophia Martinez holding a small dog"
+                },
+                {
+                  "id": "team-daniel-brooks",
+                  "name": "Dr. Daniel Brooks",
+                  "role": "Dental Care Specialist",
+                  "description": "Focuses on maintaining optimal dental health for pets.",
+                  "image": "/team/team-4.png",
+                  "imageAlt": "Dr. Daniel Brooks caring for a fluffy cat"
+                },
+                {
+                  "id": "team-olivia-reynolds",
+                  "name": "Dr. Olivia Reynolds",
+                  "role": "Dermatology Specialist",
+                  "description": "Expert in treating skin, allergy, and coat-related conditions.",
+                  "image": "/team/team-5.png",
+                  "imageAlt": "Dr. Olivia Reynolds holding a small dog"
+                },
+                {
+                  "id": "team-ethan-clarke",
+                  "name": "Dr. Ethan Clarke",
+                  "role": "Emergency & Critical Care",
+                  "description": "Provides urgent care and critical treatment with expert attention.",
+                  "image": "/team/team-6.png",
+                  "imageAlt": "Dr. Ethan Clarke holding a cat"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "PetHeader2",
+          "Footer": "PetFooter2"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "PetHero2"
+              },
+              {
+                "key": "OurService",
+                "component": "PetOurService2"
+              },
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "Testimonial",
+                "component": "PetTestimonials2"
+              },
+              {
+                "key": "Blogs",
+                "component": "PetBlogs2"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "WhyChooseUs"
+              },
+              {
+                "key": "Testimonial",
+                "component": "PetTestimonials2"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Gallery",
+                "component": "PetGallery2"
+              }
+            ]
+          },
+          "faqs": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Faq",
+                "component": "Faq"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "ServicesPageContent",
+                "component": "PetServicesPage2"
+              }
+            ]
+          },
+          "serviceDetails": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "ServiceDetail",
+                "component": "ServiceDetail"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Contact",
+                "component": "Contact"
+              }
+            ]
+          },
+          "bookAnAppointment": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "BookAppointment",
+                "component": "BookAppointment"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              }
+            ]
+          },
+          "team": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "OurTeam",
+                "component": "PetOurTeam2"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
