@@ -16,6 +16,7 @@
       "breadcrumbSeparator": "›"
     },
     "Footer": {
+      "logo": "/main%20logo/logo1.webp",
       "logoAlt": "Furique Pet Care & Wellness",
       "logoUrl": "/",
       "brandName": "Furique",
@@ -214,6 +215,7 @@
         "Header": {
           "variants": {
             "PetHeader2": {
+              "logo": "/main%20logo/logo1.webp",
               "logoAlt": "Furique Pet Care & Wellness",
               "logoUrl": "/",
               "brandName": "Furique",
@@ -908,10 +910,12 @@
                 "successMessage": "Thank you. Your message has been submitted successfully."
               },
               "map": {
+                "embedUrl": "https://maps.google.com/maps?q=1-23+Main+St,+Flushing,+NY+11354,+USA&t=&z=14&ie=UTF8&iwloc=&output=embed",
+                "mapUrl": "https://maps.google.com/?q=1-23+Main+St,+Flushing,+NY+11354,+USA",
                 "image": "/furique/contact-map.png",
-                "imageAlt": "Illustrated neighborhood map showing the Furique clinic area",
-                "label": "Furique",
-                "sublabel": "Pet Care & Wellness"
+                "imageAlt": "Google map showing Furique clinic location at 1-23 Main St, Flushing, NY, USA",
+                "label": "1-23 Main St",
+                "sublabel": "1-23 Main St, Flushing, NY 11354, USA"
               },
               "contactItems": [
                 {

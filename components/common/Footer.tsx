@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaPaw } from 'react-icons/fa';
 import { FooterProps } from '@/types/templates.types';
@@ -8,11 +9,23 @@ export const Footer = ({ data }: FooterProps) => {
   return (
     <footer className="bg-[var(--color-white)] px-4 pb-6 pt-12 sm:px-6 lg:px-8">
       <div className="mx-auto w-full max-w-[1240px]">
-        <div className="grid grid-cols-1 gap-10 border-b border-[var(--color-border)] pb-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_0.7fr_0.7fr_0.7fr]">
-          <div>
-            <Link href={data.logoUrl} aria-label={data.logoAlt} className="inline-flex items-center gap-3 text-[var(--color-primary)]">
-              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[var(--color-surface-soft)] text-2xl"><FaPaw aria-hidden="true" /></span>
-              <span className="flex flex-col"><span className="font-heading text-5xl font-bold leading-none">{data.brandName}</span><span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-[var(--color-accent-light)]">{data.brandTagline}</span></span>
+        <div className="grid grid-cols-2 gap-8 border-b border-[var(--color-border)] pb-10 sm:gap-10 lg:grid-cols-[1.5fr_0.7fr_0.7fr_0.7fr]">
+          <div className="col-span-2 lg:col-span-1">
+            <Link href={data.logoUrl} aria-label={data.logoAlt} className="inline-flex max-w-full items-center gap-3 text-[var(--color-primary)]">
+              {data.logo ? (
+                <Image
+                  src={data.logo}
+                  alt={data.logoAlt}
+                  width={260}
+                  height={80}
+                  className="h-10 w-auto max-w-full object-contain sm:h-14 lg:h-18"
+                />
+              ) : (
+                <>
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[var(--color-surface-soft)] text-2xl"><FaPaw aria-hidden="true" /></span>
+                  <span className="flex flex-col"><span className="font-heading text-5xl font-bold leading-none">{data.brandName}</span><span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-[var(--color-accent-light)]">{data.brandTagline}</span></span>
+                </>
+              )}
             </Link>
             <p className="mt-6 max-w-sm text-sm leading-6 text-[var(--color-text-light)] sm:text-base">{data.description}</p>
           </div>

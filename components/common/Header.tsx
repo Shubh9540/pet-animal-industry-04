@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaArrowRight, FaBars, FaPaw, FaTimes } from 'react-icons/fa';
@@ -34,12 +35,25 @@ export const Header = ({ data }: HeaderProps) => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[var(--color-header-border)] bg-[var(--color-white-95)] px-4 backdrop-blur-sm sm:px-6 lg:px-8">
       <div className="mx-auto flex h-20 w-full max-w-[1320px] items-center justify-between lg:h-24">
-        <Link href={data.logoUrl} aria-label={data.logoAlt} className="flex shrink-0 items-center gap-3 text-[var(--color-primary)]">
-          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-surface-soft)] text-2xl sm:h-14 sm:w-14"><FaPaw aria-hidden="true" /></span>
-          <span className="flex flex-col">
-            <span className="font-heading text-3xl font-bold leading-none sm:text-4xl">{data.brandName}</span>
-            <span className="mt-1 text-[9px] font-semibold uppercase tracking-[0.24em] text-[var(--color-accent-light)] sm:text-[10px]">{data.brandTagline}</span>
-          </span>
+        <Link href={data.logoUrl} aria-label={data.logoAlt} className="flex max-w-[calc(100%-4rem)] shrink-0 items-center gap-3 text-[var(--color-primary)]">
+          {data.logo ? (
+            <Image
+              src={data.logo}
+              alt={data.logoAlt}
+              width={260}
+              height={80}
+              priority
+              className="h-10 w-auto max-w-full object-contain sm:h-14 lg:h-18"
+            />
+          ) : (
+            <>
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-surface-soft)] text-2xl sm:h-14 sm:w-14"><FaPaw aria-hidden="true" /></span>
+              <span className="flex flex-col">
+                <span className="font-heading text-3xl font-bold leading-none sm:text-4xl">{data.brandName}</span>
+                <span className="mt-1 text-[9px] font-semibold uppercase tracking-[0.24em] text-[var(--color-accent-light)] sm:text-[10px]">{data.brandTagline}</span>
+              </span>
+            </>
+          )}
         </Link>
 
         <nav aria-label={data.logoAlt} className="hidden items-center gap-7 lg:flex xl:gap-9">

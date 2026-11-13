@@ -13,10 +13,10 @@ export const HeroSection = ({ data }: HeroSectionProps) => {
           <div className="mb-7 flex items-center gap-5 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--color-accent-light)] sm:text-sm">
             <span>{data.eyebrow}</span><span aria-hidden="true" className="h-px w-16 bg-[var(--color-accent-light)]" />
           </div>
-          <h1 className="font-heading text-5xl font-bold leading-[0.9] tracking-[-0.04em] text-[var(--color-primary)] sm:text-7xl lg:text-8xl">
-            <span className="block">{data.titleLine1}</span>
-            <span className="block text-[var(--color-accent-light)]">{data.highlightedTitle}</span>
-            <span className="block">{data.titleLine2}</span>
+          <h1 className="flex flex-col gap-2 break-words font-heading text-3xl font-bold leading-tight tracking-[-0.02em] text-[var(--color-primary)] sm:gap-3 sm:text-5xl md:text-6xl lg:gap-4 lg:text-8xl">
+            <span>{data.titleLine1}</span>
+            <span className="text-[var(--color-accent-light)]">{data.highlightedTitle}</span>
+            <span>{data.titleLine2}</span>
           </h1>
         </div>
       </div>

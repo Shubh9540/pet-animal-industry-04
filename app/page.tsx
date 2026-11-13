@@ -15,7 +15,7 @@ export default function Home() {
   if (!sectionData) return null;
 
   return (
-    <main className="flex flex-1 flex-col bg-[var(--color-bg-main)]">
+    <main className="flex w-full max-w-full flex-1 flex-col overflow-x-hidden bg-[var(--color-bg-main)]">
       <HeroSection data={sectionData.Hero?.variants?.PetHero2} />
       <OurService data={sectionData.OurService?.variants?.PetOurService2} />
       <AboutUs data={sectionData.AboutUs?.variants?.PetAboutUs2} />

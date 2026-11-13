@@ -77,17 +77,19 @@ export const Contact = ({ data }: ContactProps) => {
           </div>
         </div>
 
-        <div className="relative mt-8 h-56 overflow-hidden rounded-xl sm:h-64 lg:h-72">
-          <Image src={data.map.image} alt={data.map.imageAlt} fill sizes="(min-width: 1024px) 1240px, 100vw" className="object-cover" />
-          <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center gap-3 rounded-xl bg-[var(--color-white-95)] px-5 py-4 shadow-[var(--shadow-contact-card)]">
-            <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-contact-icon-bg)] text-xl text-[var(--color-accent-light)]">
-              <FaMapMarkerAlt aria-hidden="true" />
-            </span>
-            <span>
-              <span className="block font-heading text-base font-bold text-[var(--color-heading)]">{data.map.label}</span>
-              <span className="block text-sm text-[var(--color-text-light)]">{data.map.sublabel}</span>
-            </span>
-          </div>
+        <div className="relative mt-8 h-80 overflow-hidden rounded-xl border border-[var(--color-border)] sm:h-96 lg:h-[420px]">
+          {data.map.embedUrl ? (
+            <iframe
+              src={data.map.embedUrl}
+              title={data.map.imageAlt}
+              className="h-full w-full border-0"
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          ) : (
+            <Image src={data.map.image} alt={data.map.imageAlt} fill sizes="(min-width: 1024px) 1240px, 100vw" className="object-cover" />
+          )}
         </div>
       </div>
     </section>

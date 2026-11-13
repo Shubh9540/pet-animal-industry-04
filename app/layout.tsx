@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Poppins } from "next/font/google";
 import rawData from "@/data/templates.json";
 import { PetTemplateData, ThemeFontVariables } from "@/types/templates.types";
@@ -27,6 +27,12 @@ const fontVariables: ThemeFontVariables = {
   '--font-navigation': templateData.common.theme.fonts.navigation,
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: templateData.common.metadata.title,
   description: templateData.common.metadata.description,
@@ -43,8 +49,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${poppins.variable} ${cormorant.variable} flex min-h-screen flex-col font-sans antialiased`} style={fontVariables}>
+    <html lang="en" className="overflow-x-hidden">
+      <body className={`${poppins.variable} ${cormorant.variable} flex min-h-screen w-full max-w-full flex-col overflow-x-hidden font-sans antialiased`} style={fontVariables}>
         <Header data={sectionData.Header?.variants?.PetHeader2} />
         {children}
         <Footer data={templateData.common.Footer} />

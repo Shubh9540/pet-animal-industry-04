@@ -23,6 +23,7 @@ export interface HeaderNavLink {
 }
 
 export interface HeaderData {
+  logo?: string;
   logoAlt: string;
   logoUrl: string;
   brandName: string;
@@ -305,6 +306,7 @@ export interface FooterQuickLink {
 }
 
 export interface FooterData {
+  logo?: string;
   logoAlt: string;
   logoUrl: string;
   brandName: string;
@@ -413,6 +415,8 @@ export interface ContactData {
     successMessage: string;
   };
   map: {
+    embedUrl?: string;
+    mapUrl?: string;
     image: string;
     imageAlt: string;
     label: string;

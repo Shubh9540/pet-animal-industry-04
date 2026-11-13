@@ -11,7 +11,7 @@ export const AboutUs = ({ data, showButton = true }: AboutUsProps) => {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[0.45fr_1.55fr] lg:items-start">
           <span className="w-fit rounded-full bg-[var(--color-surface-soft)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--color-accent-light)]">{data.eyebrow}</span>
           <div>
-            <h2 className="font-heading text-4xl font-bold leading-[0.95] text-[var(--color-primary)] sm:text-6xl lg:text-7xl">
+            <h2 className="break-words font-heading text-3xl font-bold leading-tight text-[var(--color-primary)] sm:text-5xl lg:text-7xl">
               <span className="block">{data.titleLine1}</span><span className="block text-[var(--color-accent-light)]">{data.highlightedTitle}</span>
             </h2>
             <p className="mt-5 max-w-3xl text-base leading-7 text-[var(--color-navigation)] sm:text-lg">{data.description}</p>
