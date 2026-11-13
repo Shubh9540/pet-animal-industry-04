@@ -98,7 +98,7 @@
     },
     "aboutBreadcrumb": {
       "title": "About Us",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -114,7 +114,7 @@
     },
     "servicesBreadcrumb": {
       "title": "Services",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -130,7 +130,7 @@
     },
     "faqsBreadcrumb": {
       "title": "Faqs",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -146,7 +146,7 @@
     },
     "contactBreadcrumb": {
       "title": "Contact Us",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -162,7 +162,7 @@
     },
     "bookAppointmentBreadcrumb": {
       "title": "Book an Appointment",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -178,7 +178,7 @@
     },
     "galleryBreadcrumb": {
       "title": "Gallery",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -194,7 +194,7 @@
     },
     "teamBreadcrumb": {
       "title": "Our Team",
-      "image": "/furique/breadcrumb-cat-resting.png",
+      "image": "/furique/breadcrumb-cat-resting.webp",
       "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
       "paths": [
         {
@@ -274,7 +274,7 @@
               "titleLine1": "Happy Pets",
               "highlightedTitle": "Brighter",
               "titleLine2": "Tomorrows",
-              "image": "/furique/hero.png",
+              "image": "/furique/hero.webp",
               "imageAlt": "A happy golden retriever sitting beside a relaxed fluffy cat"
             }
           }
@@ -453,7 +453,7 @@
                   "title": "Health Checkup",
                   "icon": "FaStethoscope",
                   "url": "/services/details",
-                  "image": "/furique/health-checkup.png",
+                  "image": "/furique/health-checkup.webp",
                   "imageAlt": "Veterinarian giving a golden retriever a gentle health checkup",
                   "buttonText": "View"
                 },
@@ -512,7 +512,7 @@
                   "number": "01",
                   "title": "Wellness & Preventive Care",
                   "description": "Routine checkups, vaccinations and health screenings to keep your pet healthy.",
-                  "image": "/furique/health-checkup.png",
+                  "image": "/furique/health-checkup.webp",
                   "imageAlt": "Happy golden retriever receiving a wellness checkup",
                   "url": "/services/details"
                 },
@@ -580,7 +580,7 @@
                   "description": "Keep your pet healthy and happy with our comprehensive wellness and preventive care services. Regular checkups and early care help detect health issues early and ensure a longer, healthier life for your furry companion.",
                   "breadcrumb": {
                     "title": "Services Detail",
-                    "image": "/furique/breadcrumb-cat-resting.png",
+                    "image": "/furique/breadcrumb-cat-resting.webp",
                     "imageAlt": "A relaxed Bengal cat resting along the breadcrumb edge",
                     "paths": [
                       {
@@ -644,7 +644,7 @@
           "variants": {
             "PetTestimonials2": {
               "subtitle": "Our Testimonials",
-              "image": "/furique/testimonial.png",
+              "image": "/furique/testimonial.webp",
               "imageAlt": "A smiling pet owner in a lavender sweater hugging her relaxed cat",
               "testimonials": [
                 {
@@ -912,7 +912,7 @@
               "map": {
                 "embedUrl": "https://maps.google.com/maps?q=1-23+Main+St,+Flushing,+NY+11354,+USA&t=&z=14&ie=UTF8&iwloc=&output=embed",
                 "mapUrl": "https://maps.google.com/?q=1-23+Main+St,+Flushing,+NY+11354,+USA",
-                "image": "/furique/contact-map.png",
+                "image": "/furique/contact-map.webp",
                 "imageAlt": "Google map showing Furique clinic location at 1-23 Main St, Flushing, NY, USA",
                 "label": "1-23 Main St",
                 "sublabel": "1-23 Main St, Flushing, NY 11354, USA"
